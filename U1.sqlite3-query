@@ -1,0 +1,3 @@
+-- database: ./basa.db
+
+SELECT nom, prenom FROM Clients;

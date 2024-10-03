@@ -1,0 +1,6 @@
+-- database: ./basa.db
+
+SELECT Commandes.product 
+FROM Commandes
+JOIN Clients ON Commandes.client_id = Clients.id
+WHERE Clients.nom = 'Petit';
